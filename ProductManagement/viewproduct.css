@@ -1,0 +1,111 @@
+.card-title{
+    font-family: 'Rubik', sans-serif;
+    font-size: 25pt;
+    font-weight: 600;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+h6{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20pt;
+    font-weight: 600;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+h4{
+    font-family: 'Rubik', sans-serif;
+    font-size: 10pt;
+    font-weight: 600;
+    padding-top: 10px;
+    color: #2baf63;
+}
+
+.deliver{
+    font-family: 'Rubik', sans-serif;
+    font-size: 12pt;
+    padding-left: 30px;
+    color: #2baf63;
+}
+.card-text{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14pt;
+    padding-left: 30px;
+    padding-top: 30px;
+    color: black;
+}
+
+.addtocart{
+    background-color: #2baf63;
+    font-family: 'Rubik', sans-serif;
+    padding: 10px;
+    border-radius: 60px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+/*---quanitity----*/
+.quantity {
+    display: inline-block; 
+    padding-left: 30px;
+    padding-top: 30px;
+}
+   
+.quantity .input-text.qty {
+    width: 35px;
+    height: 39px;
+    padding: 0 5px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #efefef;
+}
+   
+.quantity.buttons_added {
+    text-align: left;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: top; 
+}
+   
+.quantity.buttons_added input {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    box-shadow: none;
+}
+   
+.quantity.buttons_added .minus,
+.quantity.buttons_added .plus {
+    padding: 7px 10px 8px;
+    height: 41px;
+    background-color: #ffffff;
+    border: 1px solid #efefef;
+    cursor:pointer;
+}
+   
+.quantity.buttons_added .minus {
+    border-right: 0; 
+}
+   
+.quantity.buttons_added .plus {
+    border-left: 0; 
+}
+   
+.quantity.buttons_added .minus:hover,
+.quantity.buttons_added .plus:hover {
+    background: #eeeeee; 
+}
+   
+.quantity input::-webkit-outer-spin-button,
+.quantity input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0; 
+}
+    
+.quantity.buttons_added .minus:focus,
+.quantity.buttons_added .plus:focus {
+    outline: none; 
+}
+
+   
+   
